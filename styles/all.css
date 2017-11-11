@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'BarlowSemiCondensed-Regular.ttf';
+  src: url('../fonts/Barlow_Semi_Condensed/BarlowSemiCondensed-Regular.ttf');
+}
+@font-face {
+  font-family: 'Barlow-Regular.ttf';
+  src: url('../fonts/Barlow/Barlow-Regular.ttf');
+}
+@font-face {
+  font-family: 'Barlow-Bold.ttf';
+  src: url('../fonts/Barlow/Barlow-Bold.ttf');
+}
+@font-face {
+  font-family: 'BarlowCondensed-Medium.ttf';
+  src: url('../fonts/Barlow_Condensed/BarlowCondensed-Medium.ttf');
+}
+@font-face {
+  font-family: 'BarlowCondensed-Bold.ttf';
+  src: url('../fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf');
+}
+
+body {
+   background-color: rgba(235,234,247,1.0);
+   font-family: 'BarlowSemiCondensed-Regular.ttf', sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+nav {
+   font-family: 'BarlowCondensed-Medium.ttf', sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   text-align: center;
+   font-size: 150%;
+   letter-spacing: 0.02em;
+   overflow: hidden;
+   background-color: rgba(33,53,92,1.0);
+}
+
+a {
+   text-decoration: none;
+   color: #aaa;
+}
+
+a:hover {
+   font-family: 'BarlowCondensed-Bold.ttf', sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 115%;
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   display: inline-block;
+/*
+   background-color: rgba(33,53,92,1.0);
+   color: rgba(61,185,234,1.0);
+*/
+}
+
+li {
+   display: inline;
+   float: left;
+   font-family: 'BarlowCondensed-Medium.ttf', sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   margin-left: 1em;
+   margin-right: 1em;
+   overflow: hidden;
+   background-color: rgba(33,53,92,1.0);
+   color: rgba(61,185,234,1.0);
+   
+}
+
+/* IDs */
+
+#logo {width: 20%;}
+
+#introtext {
+   font-family: 'Barlow-Regular.ttf', sans-serif;
+   font-weight; 300;
+   font-style: normal;
+   font-size: 300%;
+   margin-top: 3%;
+   margin-bottom: 3%;
+   text-align: center;
+}
+
+#boxes {}
+
+#announcements {
+   background-color: rgba(255,180,39,1.0);
+   color: rgba(0,0,0,1.0);
+   padding-top: 1em;
+   padding-bottom: 1em;
+   text-align: center;
+   font-size: 150%;
+}
+
+/* classes */
+
+.navitem {
+/*
+   background-color: rgba(33,53,92,1.0);
+   color: rgba(61,185,234,1.0);
+*/
+}
+
+.boxrow {
+   display: block;
+   width: 100%;
+   text-align: center;
+}
+
+.box {
+   width: 25%;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgba(33,53,92,1.0);
+   color: rgba(235,234,247,1.0);
+   margin-bottom: 2%;
+   padding: 2%;
+   border-radius: 3em;
+}
+
+.boxtitle {
+   font-family: 'Barlow-Bold.ttf';
+   font-weight: 700;
+   font-style: normal;
+   font-size: 175%;
+   
+}
+
+.boxdescription {
+   font-size: 125%;
+   margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
